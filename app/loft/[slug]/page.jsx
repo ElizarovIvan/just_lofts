@@ -29,6 +29,16 @@ const lofts = [
     image: "/loft-panorama.jpg",
     description: "Лофт с огромными окнами и видом на город. Отлично подойдёт для вечеринки или съёмки.",
   },
+  {
+    slug: "loft-a",
+    name: "Лайтрум Студия",
+    price: "от 2 500 ₽ / час",
+    capacity: "до 40 человек",
+    metro: "Курская",
+    image: "/loft-lightroom.jpg",
+    description: "Светлая студия с циклорамой, мягким светом и интерьером в стиле минимализм.",
+    tags: ["Фотосессия", "Презентация"],
+  },
 ];
 
 export default function LoftDetail() {
