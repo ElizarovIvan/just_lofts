@@ -63,7 +63,7 @@ export default function Home() {
       price: "от 2 500 ₽ / час",
       capacity: "до 40 человек",
       metro: "Курская",
-      image: "/loft-lightroom.jpg",
+      image: "/loft-a.jpg",
       description: "Светлая студия с циклорамой, мягким светом и интерьером в стиле минимализм.",
       tags: ["Фотосессия", "Презентация"],
     },
