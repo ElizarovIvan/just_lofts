@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 
 const IconUsers = () => (
   <svg xmlns="http://www.w3.org/2000/svg" className="inline w-4 h-4 mr-1" viewBox="0 0 24 24" fill="currentColor">
