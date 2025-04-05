@@ -3,10 +3,9 @@ export const dynamic = "force-dynamic";
 import NextAuth from "next-auth";
 import EmailProvider from "next-auth/providers/email";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
-import prisma from "../../../../lib/prisma";
+import prisma from "@/lib/prisma"; // ✅ абсолютный импорт
 
-console.log("🧩 prisma instance:", prisma);
-console.log("🧩 adapter instance:", PrismaAdapter(prisma));
+console.log("🧩 adapter instance", PrismaAdapter(prisma)); // debug лог
 
 const handler = NextAuth({
   adapter: PrismaAdapter(prisma),
