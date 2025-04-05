@@ -22,8 +22,9 @@ const handler = NextAuth({
   ],
   secret: process.env.NEXTAUTH_SECRET,
   pages: {
-    signIn: '/auth/signin', // (если добавишь custom-страницу входа)
+    signIn: '/auth/signin',
   },
+  debug: true, // Включаем режим отладки
 });
 
 export { handler as GET, handler as POST };
