@@ -1,13 +1,5 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack-05f5d5202feec1f0.js",
-      "static/chunks/2443530c-1b4abb6ebb1db3b4.js",
-      "static/chunks/139-9b703b3dc76466dd.js",
-      "static/chunks/main-app-a9c346391fe17589.js",
-      "static/css/46bf89a0160e0f6c.css",
-      "static/chunks/app/layout-0cfe8e46c429fdc0.js"
-    ],
     "/page": [
       "static/chunks/webpack-05f5d5202feec1f0.js",
       "static/chunks/2443530c-1b4abb6ebb1db3b4.js",
@@ -15,6 +7,14 @@
       "static/chunks/main-app-a9c346391fe17589.js",
       "static/chunks/629-2fb384125177507b.js",
       "static/chunks/app/page-b75acc25f321a5b9.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-05f5d5202feec1f0.js",
+      "static/chunks/2443530c-1b4abb6ebb1db3b4.js",
+      "static/chunks/139-9b703b3dc76466dd.js",
+      "static/chunks/main-app-a9c346391fe17589.js",
+      "static/css/46bf89a0160e0f6c.css",
+      "static/chunks/app/layout-0cfe8e46c429fdc0.js"
     ],
     "/loft/[slug]/page": [
       "static/chunks/webpack-05f5d5202feec1f0.js",
