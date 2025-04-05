@@ -1,12 +1,11 @@
+// app/api/auth/[...nextauth]/route.js
+
 export const dynamic = "force-dynamic";
 
 import NextAuth from "next-auth";
 import EmailProvider from "next-auth/providers/email";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
-import prisma from "../../../../lib/prisma";
-
-
-console.log("🧩 adapter instance", PrismaAdapter(prisma)); // debug лог
+import prisma from "../../../../lib/prisma"; // ← ОБЯЗАТЕЛЬНО относительный путь для Vercel
 
 const handler = NextAuth({
   adapter: PrismaAdapter(prisma),
@@ -27,4 +26,4 @@ const handler = NextAuth({
   debug: true,
 });
 
-export { handler as GET, handler as POST };
+export { handler as GET, handler as POST }; // ← Только GET и POST!
