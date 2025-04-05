@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import NextAuth from "next-auth";
 import EmailProvider from "next-auth/providers/email";
 import { PrismaAdapter } from "@auth/prisma-adapter";
@@ -21,10 +23,10 @@ const handler = NextAuth({
     }),
   ],
   secret: process.env.NEXTAUTH_SECRET,
+  debug: true,
   pages: {
     signIn: '/auth/signin',
   },
-  debug: true, // Включаем режим отладки
 });
 
 export { handler as GET, handler as POST };
