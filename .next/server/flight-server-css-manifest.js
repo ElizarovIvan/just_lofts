@@ -1,4 +1,1 @@
-self.__RSC_CSS_MANIFEST={
-  "cssImports": {},
-  "cssModules": {}
-}
+self.__RSC_CSS_MANIFEST={"cssImports":{"/Users/ivanelizarov/Downloads/stackblitz-starters-kx6rcm7t/app/layout.js":["/Users/ivanelizarov/Downloads/stackblitz-starters-kx6rcm7t/app/globals.css"]},"cssModules":{"/Users/ivanelizarov/Downloads/stackblitz-starters-kx6rcm7t/app/page":["/Users/ivanelizarov/Downloads/stackblitz-starters-kx6rcm7t/app/globals.css"],"/Users/ivanelizarov/Downloads/stackblitz-starters-kx6rcm7t/app/loft/[slug]/page":["/Users/ivanelizarov/Downloads/stackblitz-starters-kx6rcm7t/app/globals.css"]}}
