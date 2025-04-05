@@ -1,5 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/loft/[slug]/page": "app/loft/[slug]/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }
